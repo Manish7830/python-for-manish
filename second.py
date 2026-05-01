@@ -1,0 +1,14 @@
+a=10.5
+b=15.5
+c=20.5
+d=25.5
+e=30.5
+f=35.5
+g=a+b+c+d+e+f
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
