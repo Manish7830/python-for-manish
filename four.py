@@ -29,3 +29,8 @@ print(f"inc{inc}+beforecartit{beforecartit}=after1{after1}")
 print(type(inc),type(beforecartit))
 
 
+marketprice=1000
+
+discount= 20
+a_f= marketprice*discount/100
+print(a_f)
