@@ -11,5 +11,3 @@ i=a*b/c+d
 j=(d*a)/100
 print(e,f,g,h,i,j)
 
-
-

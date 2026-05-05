@@ -1,13 +1,18 @@
-num1=int(input("enter your number:"))
-num2=int(input("enter your number:"))
-num3=int(input("enter your number:"))
-res=num1-num2-num3
+n=int(input("enter your number 1 = "))
+n1=int(input("enter your number 2 = "))
+n2=int(input("enter your number 3 = "))
+n3=int(input("enter your number 4 = "))
+res=n>n1 and n2<n3
+res1=n>=n1 or n2<=n3
+res2=not(n==n1 or n2!=n3)
 print(res)
-res1=num1*num2*num3
 print(res1)
-res2=num1+num2+num3
 print(res2)
-res3=num1//num2//num3
-print(res3)
-res4=num1**num2
-print(res4)
+
+
+
+
+n="rohit,manish,ajay,dev,iq,"
+find=input("enter your name")
+print(find in n)
+print(find not in n)

@@ -21,3 +21,21 @@ char3="java"
 temp2=n3
 n3=char3
 print
+
+a=24
+a+=10
+print(a)
+e=int(input("enter your number 1 = "))
+f=int(input("enter your number 2 = "))
+res=e>f
+res1=e<f
+print(res)
+print(res1)
+res2=e>=f
+res3=e<=f
+res4=e==f
+res5=e!=f
+print(res2)
+print(res3)
+print(res4)
+print(res5)
