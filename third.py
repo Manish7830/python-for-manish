@@ -11,11 +11,7 @@ print(res2)
 
 
 
-
-n="rohit,manish,ajay,dev,iq,"
-find=input("enter your name")
-print(find in n)
-print(find not in n)
+?
 
 
 
