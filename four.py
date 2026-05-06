@@ -33,3 +33,15 @@ marketprice=1000
 
 discount= 20
 a_f= marketprice*discount/100
+
+
+
+str = "257465"
+print(str[-2: ])
+
+
+
+str = input("enter your number = ")
+n = len(str)//2
+output = str[-3:]
+print(output)
