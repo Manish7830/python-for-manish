@@ -33,4 +33,3 @@ marketprice=1000
 
 discount= 20
 a_f= marketprice*discount/100
-print(a_f)
