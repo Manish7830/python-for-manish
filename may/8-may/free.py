@@ -12,6 +12,14 @@
 #         print(i)
 
 
+# start=int(input("enter your start point = "))
+# end =int(input("enter your end point = "))
+# for i in range(start,end,):
+#     if i%2==0:
+#         print(f"divided by 2 = {i}")
+#     elif i%3 == 0 :
+#         print(f"divided by 3 = {i}")
+
 
 # start=int(input("enter your table number = "))
 # for i in range(1,11,1):
