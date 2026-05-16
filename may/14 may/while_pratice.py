@@ -94,4 +94,41 @@
 #     i -=1
 # var2 = int(rev)    
 # print(var2)
-var = 1234
+# var = [1,2,3,4]
+# size = len(var) - 1
+# i = 0
+# rev = ""
+# while i<=size:
+#     rev = rev + var
+# print(rev)
+
+# var = [1,4,9,16,25,36,49,64,81,100]
+# for i in var:
+#     if i==36:
+#         print("find = 36")
+
+# var = 100
+# for i in range(var + 1):
+#     print (i)
+
+
+# var = 100
+# rev = ""
+# for i in range(var,0 , -1):
+#     var -=1
+#     print (i)
+
+
+# table =int(input("enter your number = "))
+# for i in range(11):
+#     out = i*table
+#     print(f"{table} x {i} = {out}")
+
+
+# n = int(input("enter your number = "))
+# i = 1
+# f = 1
+# for i in range(1,n+1):
+#     f *= i
+#     print(f)
+#     i+=1
