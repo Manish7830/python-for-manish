@@ -23,7 +23,7 @@
 #     print(d)
 #     return d
 # aver(10,20,30,)  
-#   
+  
 
 
 # def fact (a):
@@ -33,11 +33,42 @@
 #     print(f)
 # fact(int(input("enter your number = ")))
 
-def val (a):
-    if a%2==0:
-        print ("even")
+# def val (a):
+#     if a%2==0:
+#         print ("even")
 
+#     else:
+#         print("odd")
+
+# val(20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def odd_even(n):
+    if n%2==0:
+        return "even"
     else:
-        print("odd")
-
-val(20)
+        return "odd"
+    
+a = int(input("enter your number = "))
+# res = odd_even(a)
+# print(res)
+print(odd_even(a))

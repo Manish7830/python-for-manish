@@ -115,4 +115,121 @@
 # print(var1)
 
 
+# IN-BUILD METHODS
+
+
+#append
+
+# emp_name=["aman","shivam"]
+# new_emp="kamal"
+# emp_name.append(new_emp)
+
+
+
+# emp_list=["aman","shivam"]
+# for i in range(1,11):
+#     new_emp=input("Enter your name = ")
+#     emp_list.append(new_emp)
+# print(emp_list)
+
+
+
+#extend
+
+
+# emp_name=["aman","shivam"]
+# print(emp_name)
+# name_list=input("Enter name list = []")
+# emp_name.extend(name_list)
+
+
+
+#insert
+
+emp_name=["aman","shivam"]
+new_emp="kamal"
+emp_name.insert(1,new_emp)
+
+
+
+
+
+#-------=======pop=======--------
+# default delete and return form  last otherwise specific index
+# my_list=[100,111,200,620,320,300]
+# print(my_list)
+# d1=my_list.pop()
+# d2=my_list.pop(1)
+
+# print(my_list)
+# print(d1,d2)
+
+
+#***********====remove()=======************
+#bydefault return nahi data
+# default iss ma value dene padti ha
+# my_list=[100,111,200,620,320,300]
+# print(my_list)
+# d1=my_list.remove(200)
+# print(d1)
+
+#+++++**+*+*+*+=8+*+*+8=*=8 clear =*=*=*=8+=*=(*)
+# my_list=[100,111,200,620,320,300]
+# my_list.clear
+# print(my_list)
+
+
+
+
+
+#==========reverse =====
+# my_list=[100,111,200,620,320,300]
+# my_list.reverse
+# print(my_list)
+
+# ---------------sort():- acending---------------
+
+# my_list=[100,200,300,400,500,600,700,800,900]
+
+# my_list.sort()
+
+# print(my_list)
+
+# ------------sort(reverce=true) decending-------------
+
+# my_list=[100,200,300,400,500,600,700,800,900]
+# my_list.sort(reverse=True)
+# print(my_list)
+
+
+
+
+#========copy===
+# my_list=[100,111,200,620,320,300]
+# my_list.copy
+# print(my_list)
+
+#=====index===
+# my_list=[100,111,200,100,620,320,300]
+# res=my_list.index
+# print(my_list)
+# print(res)
+
+
+#======count=====
+# my_list=[100,111,200,620,320,300]
+# my_list.clear
+# print(my_list)
+# res=my_list.count(100)
+# print(my_list)
+# print(res)
+
+
+# #====----universal-----
+# my_list=[100,111,200,620,320,300]
+# print(sum(my_list))
+# print(min(my_list))
+# print(max(my_list))
+
+
 
